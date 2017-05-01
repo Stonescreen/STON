@@ -4,7 +4,7 @@ var util = require("util");
 
 //Read All
 exports.getList = function (req, resp) {
-    db.executeSql("Select * From PatientStoneScreen", function (data, err) {
+    db.executeSql("Select * From emp", function (data, err) {
         if (err) {
             httpMsgs.show500(req, resp, err);
         }
