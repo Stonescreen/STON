@@ -1,0 +1,13 @@
+{
+  "name": "sample-rest",
+  "version": "0.0.0",
+  "description": "SampleREST",
+  "main": "app.js",
+  "author": {
+    "name": "hkhan",
+    "email": ""
+  },
+  "dependencies": {
+    "mssql": "^4.0.1"
+  }
+}
